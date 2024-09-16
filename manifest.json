@@ -1,0 +1,36 @@
+{
+    "short_name": "WebShare",
+    "name": "WebShare Clipboard",
+    "icons": [
+      {
+        "src": "/icon.png",
+        "sizes": "192x192",
+        "type": "image/png"
+      },
+      {
+        "src": "/icon.png",
+        "sizes": "512x512",
+        "type": "image/png"
+      },
+      {
+        "purpose": "maskable",
+        "src": "/icon.png",
+        "sizes": "512x512",
+        "type": "image/png"
+      }
+    ],
+    "start_url": ".",
+    "display": "standalone",
+    "theme_color": "#000000",
+    "background_color": "#ffffff",
+    "share_target": {
+        "action": "/share",
+        "method": "GET",
+        "params": {
+            "title": "title",
+            "text": "text",
+            "url": "link"
+        }
+    }
+  }
+  
